@@ -155,7 +155,12 @@ npm run dev
 ---
 
 ## 📸 Screenshots
-*(Add screenshots/gifs here)*
+
+### User SignIn Page
+![SignIn Page](./screenshots/User-SignIn.png)
+
+### Virtual Assistant
+![Virtual Assistant](./screenshots/Virtual-Assistant.png)
 
 ---
 
