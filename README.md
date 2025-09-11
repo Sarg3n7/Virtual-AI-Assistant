@@ -57,32 +57,14 @@ It can **listen to your voice, respond with speech (US accent), search on Google
 
 ---
 
-## 📦 Project Structure
-```
-project-root/
-│── backend/        # Express + MongoDB API
-│   ├── controllers/
-│   ├── models/
-│   ├── config/
-│   ├── index.js
-│   └── package.json
-│
-│── frontend/       # React + Vite app
-│   ├── src/
-│   ├── public/
-│   └── package.json
-│
-└── README.md
-```
-
 ---
 
 ## ⚙️ Installation & Setup
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/your-username/virtual-ai-assistant.git
-cd virtual-ai-assistant
+git clone https://github.com/Sarg3n7/Virtual-AI-Assistant.git
+cd Virtual-AI-Assistant
 ```
 
 ### 2️⃣ Setup Backend
@@ -159,7 +141,7 @@ cp .env.example .env
 ### Run Backend
 ```bash
 cd backend
-npm run dev
+npx nodemon
 ```
 
 ### Run Frontend
