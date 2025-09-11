@@ -9,16 +9,15 @@ It can **listen to your voice, respond with speech (US accent), search on Google
 ## 📑 Table of Contents
 1. [Features](#-features)
 2. [Tech Stack](#-tech-stack)
-3. [Project Structure](#-project-structure)
-4. [Installation & Setup](#-installation--setup)
-5. [Environment Variables](#-environment-variables)
-6. [Getting API Keys](#-getting-api-keys)
+3. [Installation & Setup](#-installation--setup)
+4. [Environment Variables](#-environment-variables)
+5. [Getting API Keys](#-getting-api-keys)
    - [Gemini API Key](#-1-gemini-api-key)
    - [Cloudinary API Keys](#-2-cloudinary-api-keys)
-7. [Usage](#-usage)
-8. [Screenshots](#-screenshots)
-9. [Future Improvements](#-future-improvements)
-10. [Author](#-author)
+6. [Usage](#-usage)
+7. [Screenshots](#-screenshots)
+8. [Future Improvements](#-future-improvements)
+9. [Author](#-author)
 
 ---
 
@@ -57,32 +56,14 @@ It can **listen to your voice, respond with speech (US accent), search on Google
 
 ---
 
-## 📦 Project Structure
-```
-project-root/
-│── backend/        # Express + MongoDB API
-│   ├── controllers/
-│   ├── models/
-│   ├── config/
-│   ├── index.js
-│   └── package.json
-│
-│── frontend/       # React + Vite app
-│   ├── src/
-│   ├── public/
-│   └── package.json
-│
-└── README.md
-```
-
 ---
 
 ## ⚙️ Installation & Setup
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/your-username/virtual-ai-assistant.git
-cd virtual-ai-assistant
+git clone https://github.com/Sarg3n7/Virtual-AI-Assistant.git
+cd Virtual-AI-Assistant
 ```
 
 ### 2️⃣ Setup Backend
@@ -159,7 +140,7 @@ cp .env.example .env
 ### Run Backend
 ```bash
 cd backend
-npm run dev
+npx nodemon
 ```
 
 ### Run Frontend
